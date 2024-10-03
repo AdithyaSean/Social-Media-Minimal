@@ -16,8 +16,8 @@ const AuthPage = () => {
               <AuthForm />
               <Box textAlign={"center"}>Get the app</Box>
               <Flex gap={5} justifyContent={"center"}>
-                <Image src='/playstore.png' h={"10"} alt='Playstore logo' onClick={"pointer"} />
-                <Image src='/playstore.png' h={"10"} alt='Playstore logo' onClick={"pointer"} />
+                <Image src='/playstore.png' h={"10"} alt='Playstore logo' cursor={"pointer"} />
+                <Image src='/playstore.png' h={"10"} alt='Playstore logo' cursor={"pointer"} />
               </Flex>
             </VStack >
           </Flex>
